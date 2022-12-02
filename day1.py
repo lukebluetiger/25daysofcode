@@ -11,3 +11,5 @@ for line in lines:
         elf += int(line)     
         
 print(max(calories)) # prints the max number from the list, hence the elf with the most calories
+calories.sort(reverse=True) # set the reverse to true so its in descending order
+print(calories[0] + calories[1] + calories[2]) # add our top 3 elves for their total calories
